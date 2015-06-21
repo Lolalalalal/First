@@ -1,0 +1,99 @@
+body, h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px
+}
+a {
+	color: #333;
+	text-decoration: none
+}
+.nav {
+	list-style: none;
+	height: 30px;
+	border-bottom: 15px solid #f60;
+	margin-top: 40px;
+	padding-left: 50px
+}
+.nav li {
+	float: left
+}
+.nav li a {
+	display: block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	width: 120px;
+	background: url(btnBg.png);
+	margin-left: 1px
+}
+.nav li a.on, .nav li a:hover {
+	color: #fff;
+	background-position: 0 -30px
+}
+div {
+	line-height: 50px
+}
+.head, .main, .footer {
+	width: 960px;
+	margin: 0 auto
+}
+.head {
+	height: 50px;
+	background: #fff
+}
+.logo {
+	width: 60px;
+	height: 60px;
+	background: url(logo.jpg);
+	margin-right: 50px
+}
+.body {
+	width: 960px;
+	height: 600px;
+	background: #9c0;
+	float: left;
+	border-radius: .5em;
+	margin-bottom: 15px
+}
+.footer {
+	height: 50px;
+	background: #f60;
+	border-radius: .5em;
+	text-align: center;
+	clear: both;
+}
+.h1 {
+	display: block;
+	margin: 4px auto;
+	width: 800px;
+	display: block;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.1;
+	text-align: left;
+}
+.todo {
+	position: relative;
+	width: 800px;
+	height: 80px;
+	background: yellow;
+	border-radius: .5em;
+	margin: 4px auto;
+	text-align: center;
+}
+#divT {
+	width: 300px;
+	line-height: 24px;
+	margin: 0 auto
+}
+.button {
+	position: relative;
+	width: 100px;
+	height: 60px;
+	background: yellow;
+	border-radius: .5em;
+	margin: 10px 750px;
+	text-align: center;
+
+}
