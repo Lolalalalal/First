@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 		<div class="main">
-			<div class="body">
+			<div class="body" id="body">
 				<div id="divT"></div>
 				<h1 class="h1">what to do for the next?</h1>
 				<form action="" method="get">
@@ -24,17 +24,29 @@
 					 <input type="button" name="search_button" id="search_button"/>
 				</form>
 
-				<div class="todo"><h1 class="h3">1.Learn HTML</h1><input type="button" name="del_button" id="del_button"/></div>
-				<div class="todo"><h1 class="h3">2.Keep learning css</h1><input type="button" name="del_button" id="del_button"/></div>
-				<div class="todo"><h1 class="h3">3.Learn JavaScript</h1><input type="button" name="del_button" id="del_button"/></div>
-				<div class="todo"><h1 class="h3">4.Keep learning</h1><input type="button" name="del_button" id="del_button"/></div>
-				<div class="button"><h1 class="h2">add</h1></div>
-
+				<div class="todo">
+				     <h1 class="h3" onclick="edit(this)">1.Learn HTML</h1>
+				     <input type="button" onclick='delItem(this)' name="del_button" id="del_button"/>
+				</div>
+				
+				<div id="div_1" class="todo">
+				<h1 class="h3" onclick="edit(this)">2.Keep learning css</h1><input type="button" onclick='delItem(this)' name="del_button" id="del_button"/>
+				</div>
+				
+				<div class="todo"><h1 class="h3" onclick="edit(this)">3.Learn JavaScript</h1>
+				<input type="button" onclick='delItem(this)' name="del_button" id="del_button"/>
+				</div>
+				
+				<div class="todo">
+				<h1 class="h3" onclick="edit(this)">4.Keep learning</h1><input type="button" onclick='delItem(this)' name="del_button" id="del_button"/>
+				</div>
 			</div>
+				<div class="button" onclick='addItem()'>
+			    <h1 class="h2">add</h1></div>
 		</div>
 		<div class="footer"><h1 class="h4">All Rights Reserved By Lola</h1></div>
 		
-		
-		<script src="Date.js"></script>
+		<script type="text/javascript" src="addItem.js"></script>
+		<script type="text/javascript" src="Date.js"></script>
 	</body>
 </html>
