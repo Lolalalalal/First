@@ -25,9 +25,15 @@ a {
 	color: #fff;
 	background-position: 0 -30px
 }
-.head, .main, .footer {
+.head, .main,.footer {
 	width: 960px;
-	margin: 0 auto
+	margin: 0 auto;
+}
+.main {
+	top: 100px;
+	background: #9c0;
+	border-radius: .5em;
+	padding-bottom: 50px;
 }
 .head {
 	height: 50px;
@@ -41,11 +47,6 @@ a {
 }
 .body {
 	width: 960px;
-	height: 560px;
-	background: #9c0;
-	float: left;
-	border-radius: .5em;
-	margin-bottom: 15px
 }
 .footer {
 	height: 50px;
@@ -75,7 +76,9 @@ a {
 	margin-left: 20px;
 	color: #f60;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
+	overflow: hidden;
+	width: 550px;
 }
 .h4{
 	display: block;
@@ -146,6 +149,14 @@ a {
 	width: 60px;
 	text-align: center;
 	cursor: pointer;
+}
+.editInput {
+	width: 500px;
+	line-height: 40px;
+	font-size: 20px;
+	position: relative;
+	left: -90px;
+	top: 2px;
 }
 
 
